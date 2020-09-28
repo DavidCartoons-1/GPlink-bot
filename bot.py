@@ -19,7 +19,7 @@ bot = Client('gplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm GPlink bot. Just send me link and get short link")
+        "Hi David Iam At Your Service . Just send me link I Will Do Other Process And Give You Link")
 
 
 @bot.on_message(filters.regex(r'https?://[^\s]+') & filters.private)
